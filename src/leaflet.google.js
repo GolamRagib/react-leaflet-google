@@ -40,10 +40,10 @@ L.GridLayer.GoogleMutant = L.GridLayer.extend({
 
     GoogleMapsLoader.load(function (_google) {
       google = _google;
-      console.log('I just loaded google maps api');
+      //console.log('I just loaded google maps api');
       self._ready = true;
       //self._initMapObject();
-      // self.
+      //self.
       self._initMutant();
       self._update();
 
